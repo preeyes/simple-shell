@@ -17,8 +17,8 @@ Ensure you have the following installed:
 
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/preeyes/simple-shell.git
+   cd simple-shell
 
 2. Compile and run using make
     ```bash
