@@ -1,7 +1,7 @@
 #include "parser.h"
 
 
-void get_input(char input[1024]){
+void get_input(char* input){
     printf("$  ");
     fgets(input, 1024, stdin);
     input[strcspn(input, "\n")] = 0;
