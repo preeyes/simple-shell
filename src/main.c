@@ -5,6 +5,8 @@
 
 int main(){
 
+    char *home_path = getenv("HOME");
+    chdir(home_path);
 // needs loop to continue asking for command untill user exits the shell
 while (1){
 
